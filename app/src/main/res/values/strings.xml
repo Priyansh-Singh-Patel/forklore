@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Forklore</string>
     <string name="next">Next</string>
+    <string name="welcome_keeper_of_forklore">Welcome, Keeper Of Forklore!</string>
+    <string name="where_every_meal_tells_a_tale">Where Every Meal Tells A Tale</string>
+    <string name="forklore">Forklore</string>
 </resources>
