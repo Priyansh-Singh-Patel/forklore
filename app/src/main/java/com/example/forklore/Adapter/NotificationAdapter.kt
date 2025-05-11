@@ -13,7 +13,7 @@ class NotificationAdapter(): RecyclerView.Adapter<NotificationAdapter.Notificati
     }
 
     override fun getItemCount(): Int {
-        TODO("")
+        TODO("Not yet implemented")
     }
 
     override fun onBindViewHolder(holder: NotificationViewHolder, position: Int) {
