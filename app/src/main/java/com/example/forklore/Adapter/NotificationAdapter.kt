@@ -17,6 +17,6 @@ class NotificationAdapter(): RecyclerView.Adapter<NotificationAdapter.Notificati
     }
 
     override fun onBindViewHolder(holder: NotificationViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        TODO("")
     }
 }
