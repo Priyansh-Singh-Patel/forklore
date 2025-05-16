@@ -14,12 +14,18 @@ class NotificationAdapter(private var notification: ArrayList<String>, private v
     }
 
     override fun onBindViewHolder(holder: NotificationViewHolder, position: Int) {
-        TODO("")
+        holder.bind(position)
     }
 
     override fun getItemCount(): Int = notification.size
 
     inner class NotificationViewHolder(private val binding: NotificationItemBinding): RecyclerView.ViewHolder(binding.root) {
+        fun bind(position: Int) {
+            binding.apply {
+                notificationTextView.text = notification[position]
+                notificationImageView.setImageResource(notificationImage[position])
+            }
+        }
 
     }
 }
