@@ -54,7 +54,7 @@ class HomeFragment : Fragment() {
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
         imageSlider.setItemClickListener(object: ItemClickListener{
             override fun doubleClick(position: Int) {
-                TODO("Not yet implemented")
+                //Do nothing
             }
 
             override fun onItemSelected(position: Int) {
