@@ -56,8 +56,10 @@
                 android:layout_width="65dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/lato_bold"
                 android:paddingLeft="8dp"
-                android:text="Name" />
+                android:text="Name"
+                android:textColor="@color/black" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -67,7 +69,8 @@
                 android:ems="10"
                 android:fontFamily="@font/lato_regular"
                 android:inputType="text"
-                android:text="Name" />
+                android:text="Name"
+                android:textColor="@color/black" />
 
         </LinearLayout>
 
@@ -88,8 +91,10 @@
                 android:layout_width="65dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/lato_bold"
                 android:paddingLeft="8dp"
-                android:text="Address" />
+                android:text="Address"
+                android:textColor="@color/black" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -101,7 +106,8 @@
                 android:ems="10"
                 android:fontFamily="@font/lato_regular"
                 android:inputType="textMultiLine"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                android:textColor="@color/black" />
 
         </LinearLayout>
 
@@ -122,8 +128,10 @@
                 android:layout_width="65dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/lato_bold"
                 android:paddingLeft="8dp"
-                android:text="Phone" />
+                android:text="Phone"
+                android:textColor="@color/black" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -133,7 +141,8 @@
                 android:ems="10"
                 android:fontFamily="@font/lato_regular"
                 android:inputType="phone"
-                android:text="9876543210" />
+                android:text="9876543210"
+                android:textColor="@color/black" />
 
         </LinearLayout>
 
@@ -154,8 +163,10 @@
                 android:layout_width="65dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/lato_bold"
                 android:paddingLeft="8dp"
-                android:text="Payment Method" />
+                android:text="Payment Method"
+                android:textColor="@color/black" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -184,8 +195,10 @@
                 android:layout_width="65dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/lato_bold"
                 android:paddingLeft="8dp"
-                android:text="Total Amount" />
+                android:text="Total Amount"
+                android:textColor="@color/black" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -211,11 +224,11 @@
         android:id="@+id/PlaceOrder"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:layout_marginBottom="32dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginLeft="16dp"
-        android:background="@drawable/edittextshape"
         android:layout_gravity="bottom"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/edittextshape"
         android:fontFamily="@font/lato_bold"
         android:text="Place Order"
         android:textAllCaps="false"
