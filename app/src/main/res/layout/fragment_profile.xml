@@ -43,7 +43,8 @@
             android:ems="10"
             android:fontFamily="@font/lato_regular"
             android:inputType="text"
-            android:text="Admin" />
+            android:text="Admin"
+            android:textColor="@color/black" />
     </LinearLayout>
 
         <LinearLayout
@@ -77,7 +78,8 @@
                 android:ems="10"
                 android:fontFamily="@font/lato_regular"
                 android:inputType="textMultiLine"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                android:textColor="@color/black" />
         </LinearLayout>
 
         <LinearLayout
@@ -109,7 +111,8 @@
                 android:ems="10"
                 android:fontFamily="@font/lato_regular"
                 android:inputType="textEmailAddress"
-                android:text="admin@gmail.com" />
+                android:text="admin@gmail.com"
+                android:textColor="@color/black" />
         </LinearLayout>
 
         <LinearLayout
@@ -142,7 +145,8 @@
                 android:ems="10"
                 android:fontFamily="@font/lato_regular"
                 android:inputType="phone"
-                android:text="1234567890" />
+                android:text="1234567890"
+                android:textColor="@color/black" />
         </LinearLayout>
 
     </LinearLayout>
